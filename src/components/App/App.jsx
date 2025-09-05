@@ -5,6 +5,7 @@ import "./App.css";
 import AboutUs from "../AboutUs/AboutUs.jsx";
 import Catalog from "../Catalog/Catalog.jsx";
 import Feature from "../Feature/Feature.jsx";
+import Rent from "../Rent/Rent.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <Catalog />
       <Feature />
+      <Rent />
     </>
   );
 }
