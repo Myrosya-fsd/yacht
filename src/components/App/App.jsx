@@ -3,7 +3,7 @@ import Header from "../Header/Header.jsx";
 
 import "./App.css";
 import AboutUs from "../AboutUs/AboutUs.jsx";
-import Catalog from "../catalog/catalog.jsx";
+import Catalog from "../Сatalog/Сatalog.jsx";
 
 function App() {
   return (
