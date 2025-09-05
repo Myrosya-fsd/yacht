@@ -41,6 +41,7 @@
   width: 179px;
   height: 52px;
   background: #1b414b;
+  cursor: pointer;
 }
 
 .link:hover,

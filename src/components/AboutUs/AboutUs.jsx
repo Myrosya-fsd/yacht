@@ -33,22 +33,22 @@ function AboutUs() {
           />
           <source
             srcSet="
-                              /about_us/Photo_1280_1x.jpg 1x,
+            /about_us/Photo_1280_1x.jpg 1x,
             /about_us/Photo_1280_2x.jpg 2x
-                      "
+             "
             media="(min-width: 1280px)"
           />
           <source
             srcSet="
             /about_us/Photo_tab_1x.jpg 1x,
-            /about_us/Photo_tab_1x.jpg 2x
+            /about_us/Photo_tab_2x.jpg 2x
           "
             media="(min-width: 768px)"
           />
           <source
             srcSet="
             /about_us/Photo_mob_1x.jpg 1x,
-            /about_us/Photo_mob_1x.jpg  2x
+            /about_us/Photo_mob_2x.jpg  2x
           "
             media="(max-width: 767px)"
           />
