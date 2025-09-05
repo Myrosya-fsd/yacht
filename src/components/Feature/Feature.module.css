@@ -1,0 +1,51 @@
+.feature {
+  padding: 75px 50px;
+  display: flex;
+  gap: 32px;
+}
+
+.list {
+  border-radius: 24px;
+  width: 768px;
+  height: 424px;
+  background-color: #1b414b;
+  padding: 90px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.item {
+  width: 318px;
+  height: 100px;
+}
+
+.typeDivider {
+  width: 318px;
+  margin-bottom: 18px;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.text {
+  font-size: 13px;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.img {
+  border-radius: 24px;
+  width: 540px;
+  height: 424px;
+}

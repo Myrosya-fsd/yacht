@@ -3,7 +3,8 @@ import Header from "../Header/Header.jsx";
 
 import "./App.css";
 import AboutUs from "../AboutUs/AboutUs.jsx";
-import Catalog from "../Сatalog/Сatalog.jsx";
+import Catalog from "../Catalog/Catalog.jsx";
+import Feature from "../Feature/Feature.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Catalog />
+      <Feature />
     </>
   );
 }
