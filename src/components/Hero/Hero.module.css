@@ -42,6 +42,7 @@
   height: 52px;
   background: #1b414b;
   cursor: pointer;
+  transition: background-color 250ms ease;
 }
 
 .link:hover,

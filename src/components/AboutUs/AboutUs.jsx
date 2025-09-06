@@ -4,7 +4,7 @@ import styles from "./AboutUs.module.css";
 function AboutUs() {
   return (
     <Container>
-      <section className={styles.aboutUs}>
+      <section id="about" className={styles.aboutUs}>
         <div className={styles.over}>
           <h2 className={styles.title}>
             YachtJet fleet is here to take you on the ultimate adventure

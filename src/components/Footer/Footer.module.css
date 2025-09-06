@@ -1,0 +1,104 @@
+.footer {
+  border-radius: 24px 24px 0 0;
+  width: 1390px;
+  height: 418px;
+  background-color: #1b414b;
+  padding: 50px 75px;
+  margin: 0 auto;
+}
+
+.footerOwerBlox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 74px;
+  height: 24px;
+  fill: #fbfbfb;
+  cursor: pointer;
+}
+
+.icon:hover,
+.icon:focus {
+  fill: rgba(251, 251, 251, 0.3);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.item {
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  background-color: rgba(251, 251, 251, 0.3);
+  font-size: 9px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
+  cursor: pointer;
+  transition: background-color 250ms ease, color 250ms ease;
+}
+
+.item:hover,
+.item:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+
+.linrsList {
+  display: flex;
+  gap: 8px;
+}
+
+.iconSoc {
+  width: 24px;
+  height: 24px;
+  fill: #fbfbfb;
+  cursor: pointer;
+}
+
+.iconSoc:hover,
+.iconSoc:focus {
+  fill: black;
+}
+
+.text {
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: 0 auto;
+  width: 699px;
+  margin-bottom: 99px;
+}
+
+.footerBlock {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+  cursor: pointer;
+  transition: color 250ms ease;
+}
+
+.copyright:hover,
+.copyright:focus {
+  color: #fbfbfb;
+}

@@ -3,7 +3,7 @@ import styles from "./Catalog.module.css";
 
 function Catalog() {
   return (
-    <section className={styles.catalog}>
+    <section id="catalog" className={styles.catalog}>
       <Container>
         <h2 className={styles.title}>
           Choose your dream yacht and sail away into the sunset

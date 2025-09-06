@@ -97,6 +97,7 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   cursor: pointer;
+  transition: background-color 250ms ease, color 250ms ease;
 }
 
 .link:hover,

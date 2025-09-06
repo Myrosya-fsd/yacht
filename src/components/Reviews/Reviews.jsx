@@ -5,7 +5,7 @@ function Reviews() {
   return (
     <>
       <Container>
-        <section className={styles.reviews}>
+        <section id="reviews" className={styles.reviews}>
           <h2 className={styles.title}>
             YachtJet take pride in providing the best possible service and
             experience to our customers
@@ -19,8 +19,8 @@ function Reviews() {
             <li className={styles.item}>
               <img
                 className={styles.card}
-                srcset="./reviews/image_1_1x.png 1x, ./reviews/image_1_2x.png 2x"
-                src="./reviews/image_1_1x"
+                srcSet="./reviews/image_1_1x.png 1x, ./reviews/image_1_2x.png 2x"
+                src="./reviews/image_1_1x.png"
                 alt="yang man"
                 width="56"
               />
@@ -35,9 +35,9 @@ function Reviews() {
             <li className={styles.item}>
               <img
                 className={styles.card}
-                srcset="./reviews/image_2_1x.png 1x, ./reviews/image_2_2x.png 2x"
-                src="./reviews/image_2_1x"
-                alt="yang man"
+                srcSet="./reviews/image_2_1x.png 1x, ./reviews/image_2_2x.png 2x"
+                src="./reviews/image_2_1x.png"
+                alt="yang woman"
                 width="56"
               />
               <h3 className={styles.name}>Victoria Romashenko</h3>
@@ -51,8 +51,8 @@ function Reviews() {
             <li className={styles.item}>
               <img
                 className={styles.card}
-                srcset="./reviews/image_3_1x.png 1x, ./reviews/image_3_2x.png 2x"
-                src="./reviews/image_3_1x"
+                srcSet="./reviews/image_3_1x.png 1x, ./reviews/image_3_2x.png 2x"
+                src="./reviews/image_3_1x.png"
                 alt="yang man"
                 width="56"
               />
