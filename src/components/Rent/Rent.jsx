@@ -6,7 +6,7 @@ function Rent() {
   return (
     <>
       <Container>
-        <section className={styles.rent}>
+        <section id="rent" className={styles.rent}>
           <div className={styles.partRent}>
             <h2 className={styles.title}>Rent a yacht now</h2>
             <MyForm />
