@@ -55,3 +55,27 @@
 .textarea:focus {
   transform: scale(1.05);
 }
+
+.fieldWrapper {
+  position: relative;
+}
+
+/* повідомлення про помилку займає місце у відступі */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  position: absolute;
+  bottom: 0; /* завжди притискається до низу контейнера */
+  left: 0;
+}
+
+.input:not(:placeholder-shown) {
+  background-color: #fff;
+  color: #000;
+}
+
+.textarea:not(:placeholder-shown) {
+  background-color: #fff;
+  color: #000;
+}
