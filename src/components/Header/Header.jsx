@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <>
-      <section id="logo">
+      <section id="logo" className={styles.header}>
         <a href="#logo">
           <svg className={`${styles.icon} icon-logo`}>
             <use xlinkHref="/symbol-defs.svg#icon-logo" />

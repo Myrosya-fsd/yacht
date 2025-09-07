@@ -1,0 +1,71 @@
+.header {
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  width: 1240px;
+  height: 48px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.icon {
+  width: 74px;
+  height: 24px;
+  fill: #1b414b;
+}
+
+.icon:hover,
+.icon:focus {
+  fill: rgba(27, 65, 75, 0.5);
+}
+
+.list {
+  display: flex;
+  gap: 4px;
+}
+
+.item {
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  background-color: rgba(27, 65, 75, 0.5);
+  font-size: 9px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms ease;
+}
+
+.item:hover,
+.item:focus {
+  background-color: #1b414b;
+}
+
+.linrsList {
+  display: flex;
+  gap: 8px;
+}
+
+.iconSoc {
+  width: 24px;
+  height: 24px;
+  fill: #1b414b;
+  cursor: pointer;
+}
+
+.iconSoc:hover,
+.iconSoc:focus {
+  fill: rgba(27, 65, 75, 0.5);
+}
