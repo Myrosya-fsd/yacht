@@ -69,3 +69,15 @@
 .iconSoc:focus {
   fill: rgba(27, 65, 75, 0.5);
 }
+
+@media only screen and (max-width: 1280px) {
+  .header {
+    max-width: 1080px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    max-width: 704px;
+  }
+}
