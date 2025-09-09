@@ -126,7 +126,7 @@ function Catalog() {
               <p className={styles.text}>€23,210,000</p>
             </div>
           </li>
-          <li className={styles.item}>
+          <li className={`${styles.item} ${styles.item2}`}>
             <picture className={styles.img}>
               <source
                 srcSet="
