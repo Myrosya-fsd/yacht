@@ -135,7 +135,13 @@ function Catalog() {
                       "
                 media="(min-width: 1440px)"
               />
-
+              <source
+                srcSet="
+                        /catalog/img_yaht_3_1280_1x.jpg 1x,
+                        /catalog/img_yaht_3_1280_2x.jpg 2x
+                      "
+                media="(min-width: 1280px)"
+              />
               <img
                 className={styles.img}
                 src="/catalog/img_yaht_3_1440_1x.jpg"

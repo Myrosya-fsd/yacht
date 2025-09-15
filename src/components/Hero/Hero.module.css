@@ -1,5 +1,5 @@
 .hero {
-  width: 1440px;
+  max-width: 1440px;
   min-height: 800px;
   padding: 235px 220px 215px 220px;
   background-image: image-set(
@@ -39,7 +39,7 @@
   color: #fbfbfb;
   border-radius: 15px;
   padding: 16px 40px;
-  width: 179px;
+  max-width: 179px;
   height: 52px;
   background: #1b414b;
   cursor: pointer;
@@ -49,4 +49,38 @@
 .link:hover,
 .link:focus {
   background-color: #2c5864;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+  .hero {
+    max-width: 1280px;
+    padding: 235px 140px 215px 140px;
+    background-image: image-set(
+      url("/hero/image_1280_1x.jpg") 1x,
+      url("/hero/image_1280_2x.jpg") 2x
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  .hero {
+    max-width: 768px;
+    padding: 280px 32px 215px 32px;
+    background-image: image-set(
+      url("/hero/image_tab_p_1x.jpg") 1x,
+      url("/hero/image_tab_p_2x.jpg") 2x
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .title {
+    font-size: 70px;
+  }
 }
