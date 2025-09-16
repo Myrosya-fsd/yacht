@@ -1,5 +1,5 @@
 .catalog {
-  padding: 270px 100px 75px 100px;
+  padding: 100px 100px 75px 100px;
 }
 
 .title {
@@ -9,7 +9,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  max-width: 714px;
+  width: 714px;
   margin: 0 auto;
   margin-bottom: 75px;
 }
@@ -17,7 +17,7 @@
 .list {
   display: flex;
   gap: 32px;
-  max-width: 1240px;
+  width: 1240px;
   height: 508px;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -39,7 +39,7 @@
 
 .img {
   margin-bottom: 32px;
-  max-width: 360px;
+  width: 360px;
   display: block;
 }
 
@@ -106,42 +106,4 @@
 .link:focus {
   background-color: #fbfbfb;
   color: #1b414b;
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1280px) {
-  .catalog {
-    padding: 305px 50px 75px 50px;
-  }
-
-  .list {
-    gap: 25px;
-    max-width: 1180px;
-  }
-
-  .item {
-    max-width: 377px;
-  }
-
-  .img {
-    max-width: 345px;
-  }
-}
-
-@media only screen and (min-width: 375px) and (max-width: 768px) {
-  .catalog {
-    padding: 426px 32px 75px 32px;
-  }
-
-  .list {
-    gap: 25px;
-    max-width: 704px;
-  }
-
-  .item {
-    max-width: 336px;
-  }
-
-  .item2 {
-    display: none;
-  }
 }

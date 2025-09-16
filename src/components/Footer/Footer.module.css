@@ -102,9 +102,3 @@
 .copyright:focus {
   color: #fbfbfb;
 }
-
-@media only screen and (min-width: 769px) and (max-width: 1280px) {
-  .footer {
-    max-width: 1230px;
-  }
-}
